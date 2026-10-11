@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Local SQLite data
+*.db
+*.db-shm
+*.db-wal
+data/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Build output, logs, coverage
+dist/
+coverage/
+*.log
+
+# Editor / OS leftovers
+*.save
+.DS_Store
+.vscode/
+.idea/
+
+# Personal interview-prep notes (not part of the submission)
+TUTORIAL.md
+*.pptx
